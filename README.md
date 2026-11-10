@@ -1,21 +1,73 @@
 <p>
-  <img src="assets/profile-header.svg" alt="Rymbek Nazerke — DevOps / Platform Engineering. Reliable delivery, observable systems, reproducible experiments." width="100%">
+  <img src="assets/profile-header.svg" alt="Rymbek Nazerke — AI Engineer. LLM fine-tuning, model evaluation, and ML systems." width="100%">
 </p>
 
-I build practical tools for **safer releases, reliable services, and clearer incident response**. My projects connect backend engineering with observability and reproducible ML experiments.
+I'm **Rymbek Nazerke, an AI Engineer** focused on **LLM fine-tuning, model evaluation, and ML systems**. I build reproducible experiments and practical AI tools, with attention to data quality, numerical correctness, and inspectable results.
 
-**Start here:** [Release Guard](https://github.com/nazek52/release-guard#real-http-demonstration) · [Interactive field lab](https://nazek52.github.io/FloodShield/) · [Русский разбор проекта](https://github.com/nazek52/release-guard/blob/main/docs/INTERVIEW.ru.md)
+**Explore:** [Fine-tuning & evaluation](https://github.com/nazek52/tuneproof) · [Training kernels](https://github.com/nazek52/soup-kernel-lab) · [Applied AI demo](https://nazek52.github.io/FloodShield/)
 
-## Selected work
+## Selected projects
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### Release Guard
-**Safer canary decisions**
+### TuneProof
+**LLM fine-tuning & evaluation**
 
-A release gate that returns PASS, FAIL, or HOLD from baseline and candidate metrics. Stale or insufficient evidence blocks promotion.
+A CPU-runnable LoRA experiment with a causal transformer, leakage-aware dataset splits, held-out evaluation, and a zero-learning-rate control.
+
+<sub>Python · PyTorch · LoRA</sub>
+
+[Repository](https://github.com/nazek52/tuneproof) · [Evidence](https://github.com/nazek52/tuneproof/blob/main/evidence/README.md)
+
+</td>
+<td width="50%" valign="top">
+
+### Soup Kernel Lab
+**Training kernels & numerical correctness**
+
+Custom Triton RMSNorm and cross-entropy kernels with value and gradient checks, CPU reports, and a benchmark notebook. GPU performance is not yet measured.
+
+<sub>Python · PyTorch · Triton</sub>
+
+[Repository](https://github.com/nazek52/soup-kernel-lab) · [Validation](https://github.com/nazek52/soup-kernel-lab/blob/main/docs/VALIDATION.md)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### Drift Sentinel
+**Temporal evaluation & model monitoring**
+
+Chronological evaluation, delayed-label cutoffs, baseline comparisons, and drift diagnostics for a reproducible synthetic incident dataset.
+
+<sub>Python · scikit-learn · MLOps</sub>
+
+[Repository](https://github.com/nazek52/drift-sentinel) · [Model card](https://github.com/nazek52/drift-sentinel/blob/main/docs/model-card.md)
+
+</td>
+<td width="50%" valign="top">
+
+### FloodShield
+**Applied AI & field evidence**
+
+Source-linked field-report extraction with a server-side Meta integration, human review, and geospatial scenarios. The static demo supports simulation and manual review.
+
+<sub>JavaScript · Node.js · GeoJSON · Meta API</sub>
+
+[Repository](https://github.com/nazek52/FloodShield) · [Live demo](https://nazek52.github.io/FloodShield/)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### Release Guard
+**Reliable delivery & decision gates**
+
+An explainable canary gate returning PASS, FAIL, or HOLD from baseline and candidate metrics. Missing or insufficient evidence blocks promotion.
 
 <sub>Python · statistics · Docker · CI/CD</sub>
 
@@ -24,95 +76,46 @@ A release gate that returns PASS, FAIL, or HOLD from baseline and candidate metr
 </td>
 <td width="50%" valign="top">
 
-### Relay Ledger
-**Reliable webhook delivery**
-
-A durable queue with idempotency, signed payloads, bounded retries, and worker-crash recovery. Every delivery has an inspectable history.
-
-<sub>Python · FastAPI · SQLite · HMAC</sub>
-
-[Repository](https://github.com/nazek52/relay-ledger) · [Architecture](https://github.com/nazek52/relay-ledger/blob/main/docs/architecture.md)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
 ### Trace Lens
-**Make request latency visible**
+**Observability & developer tools**
 
-Import OTLP JSON, explore a nested waterfall, and investigate error spans. Trace data stays in the browser.
+Explore OTLP traces in a local browser waterfall, inspect error spans, and investigate latency. Trace data stays in the browser.
 
-<sub>TypeScript · React · Web Workers · Playwright</sub>
+<sub>TypeScript · React · Web Workers</sub>
 
-[Repository](https://github.com/nazek52/trace-lens) · [Interface preview](https://github.com/nazek52/trace-lens/blob/main/docs/preview.png)
-
-</td>
-<td width="50%" valign="top">
-
-### Shift Ledger
-**Incident handoffs with context**
-
-An incident desk with acknowledged ownership transfers, role checks, and a versioned audit trail. Concurrent edits cannot silently overwrite each other.
-
-<sub>Python · FastAPI · SQLite · browser UI</sub>
-
-[Repository](https://github.com/nazek52/shift-ledger) · [Interface preview](https://github.com/nazek52/shift-ledger/blob/main/docs/preview.png)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### Drift Sentinel
-**Model monitoring without future leakage**
-
-A reproducible experiment with chronological splits, delayed labels, baseline comparisons, and drift diagnostics on synthetic incidents.
-
-<sub>Python · scikit-learn · temporal evaluation</sub>
-
-[Repository](https://github.com/nazek52/drift-sentinel) · [Model card](https://github.com/nazek52/drift-sentinel/blob/main/docs/model-card.md)
-
-</td>
-<td width="50%" valign="top">
-
-### FloodShield
-**From scenarios to field review**
-
-An interactive research prototype for runoff scenarios, historical flood evidence, and drainage comparisons. Includes a guided browser demo.
-
-<sub>JavaScript · Node.js · GeoJSON</sub>
-
-[Repository](https://github.com/nazek52/FloodShield) · [Live demo](https://nazek52.github.io/FloodShield/)
+[Repository](https://github.com/nazek52/trace-lens) · [Interface](https://github.com/nazek52/trace-lens/blob/main/docs/preview.png)
 
 </td>
 </tr>
 </table>
 
-## Tools I use
+## Engineering toolkit
 
-| Area | Technologies |
+| Focus | Technologies & methods |
 | :--- | :--- |
-| Backend & data | Python, FastAPI, SQLite, PostgreSQL |
-| Delivery & observability | Docker, GitHub Actions, Prometheus, Grafana, OpenTelemetry |
-| Interfaces & testing | TypeScript, React, Web Workers, pytest, Playwright |
-| ML experiments | scikit-learn, PyTorch, LoRA, Triton |
+| LLM engineering | Python, PyTorch, LoRA, causal transformers, held-out evaluation |
+| ML systems & monitoring | Triton, numerical validation, scikit-learn, temporal splits, drift diagnostics |
+| Backend & delivery | FastAPI, SQLite, PostgreSQL, Docker, GitHub Actions |
+| Interfaces & observability | TypeScript, React, OpenTelemetry, Prometheus, Grafana |
+| Verification | pytest, Playwright, reproducible reports, integrity manifests |
 
-## Also exploring
+## Supporting engineering work
 
-- **[TuneProof](https://github.com/nazek52/tuneproof)** — a small CPU-runnable LoRA experiment with held-out evaluation and a zero-learning-rate control.
-- **[Soup Kernel Lab](https://github.com/nazek52/soup-kernel-lab)** — RMSNorm and cross-entropy kernels, with numerical checks and a reproducible CPU demo. GPU performance is not yet measured.
+- **[Relay Ledger](https://github.com/nazek52/relay-ledger)** — durable webhook delivery with idempotency, signed payloads, retries, and worker-crash recovery.
+- **[Shift Ledger](https://github.com/nazek52/shift-ledger)** — incident ownership and acknowledged handoffs with role checks and a versioned audit trail.
 
 <details>
-<summary><strong>Infrastructure labs & review guide</strong></summary>
+<summary><strong>Infrastructure labs & project walkthroughs</strong></summary>
 
-- [Service Observability & Recovery](https://github.com/nazek52/service-observability-recovery-lab) — a PostgreSQL-backed API, Prometheus/Grafana, and outage/recovery exercises.
+- [Service Observability & Recovery](https://github.com/nazek52/service-observability-recovery-lab) — PostgreSQL, Prometheus/Grafana, and outage/recovery exercises.
 - [Containerized Service Delivery](https://github.com/nazek52/containerized-web-service-delivery-lab) — a focused container delivery lab.
+- [TuneProof: русский разбор](https://github.com/nazek52/tuneproof/blob/main/docs/DEFENSE_RU.md)
+- [Soup Kernel Lab: устройство проекта](https://github.com/nazek52/soup-kernel-lab/blob/main/docs/START_HERE_RU.md)
 
-For the DevOps projects, start with the documented local scenario, inspect the verification notes, and read the architecture decisions. Russian walkthroughs are available in the repositories.
+For each project, start with its documented demo, review the recorded evidence, and inspect the implementation and its limitations.
 
 </details>
 
 ---
 
-<sub>Personal learning and engineering projects, developed with AI assistance. Synthetic data and controlled failure scenarios are labeled. These projects do not represent production employment, customer traffic, or production SLAs. FloodShield is a research prototype, not an operational forecasting or warning system.</sub>
+<sub>Independent portfolio projects developed with AI assistance. Synthetic data, measured results, and experimental limits are documented in each repository. These projects do not imply production employment, customer deployments, or production SLAs.</sub>
