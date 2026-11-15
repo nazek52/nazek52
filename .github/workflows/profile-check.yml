@@ -1,0 +1,22 @@
+name: Check profile
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  profile:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - name: Check assets, navigation and contribution records
+        run: node scripts/check-profile.mjs
+      - name: Check reproducible project artwork
+        run: |
+          node scripts/build-showcase.mjs
+          git diff --exit-code -- assets/projects assets/links

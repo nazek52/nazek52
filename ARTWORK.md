@@ -9,6 +9,9 @@ Original profile direction for **Rymbek Nazerke — AI Engineer**: a lavender ni
 - `assets/focus*.svg`: rotating focus labels and a static alternative.
 - `assets/stack-*.svg`: theme-aware toolkit panels, with a separate mobile layout.
 - `assets/activity/*`: animated and static contribution calendars in both themes and sizes; the dated JSON snapshot contains the underlying values.
+- `assets/projects/*`: original vector project cards in dark/light and desktop/mobile variants. Their diagrams illustrate concepts, not benchmark measurements.
+- `assets/links/*`: repository-local contact and achievement navigation buttons. The Achievements button links to GitHub's actual awards; it is not an award itself.
+- `assets/contributions.json`: a dated record of four selected, publicly merged upstream PRs, verified against GitHub's PR API. It is not an automatically updated total of all contributions.
 
 All illustration and SVG layouts were prepared for this profile. No artwork, contacts, projects, or identity details were copied from another profile. These are decorative animations, not live training or model-performance displays.
 
@@ -23,6 +26,15 @@ Node.js 20 or newer is sufficient for the calendar; it has no package dependenci
 ```sh
 node scripts/build-profile.mjs
 ```
+
+Rebuild the project cards and check local assets, section links and recorded data:
+
+```sh
+node scripts/build-showcase.mjs
+node scripts/check-profile.mjs
+```
+
+The `Check profile` workflow runs these checks for pull requests and changes to `main`. The weekly calendar job validates its refreshed output before committing it. To update the selected contributions, verify each PR's author and merged state on GitHub, then update both the README and `assets/contributions.json`.
 
 To recreate the cover animation from the original generated PNG:
 

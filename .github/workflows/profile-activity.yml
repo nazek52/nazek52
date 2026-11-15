@@ -25,6 +25,8 @@ jobs:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
       - name: Build profile artwork from public calendar
         run: node scripts/build-profile.mjs
+      - name: Validate refreshed profile
+        run: node scripts/check-profile.mjs
       - name: Commit updated activity assets
         shell: bash
         run: |

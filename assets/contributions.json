@@ -1,0 +1,42 @@
+{
+  "verifiedOn": "2026-11-15",
+  "scope": "Selected public upstream contributions; not a total count of all contributions.",
+  "pullRequests": [
+    {
+      "repository": "MakazhanAlpamys/Soup",
+      "number": 2707,
+      "title": "Estimate training finish in the live panel",
+      "url": "https://github.com/MakazhanAlpamys/Soup/pull/2707",
+      "author": "nazek52",
+      "merged": true,
+      "mergedAt": "2026-11-12T08:58:53Z"
+    },
+    {
+      "repository": "MakazhanAlpamys/Soup",
+      "number": 2706,
+      "title": "Show full local run comparisons",
+      "url": "https://github.com/MakazhanAlpamys/Soup/pull/2706",
+      "author": "nazek52",
+      "merged": true,
+      "mergedAt": "2026-11-12T06:45:47Z"
+    },
+    {
+      "repository": "MakazhanAlpamys/Soup",
+      "number": 2660,
+      "title": "feat(recipes): add Qwen3.5-122B-A10B text MoE GRPO variant",
+      "url": "https://github.com/MakazhanAlpamys/Soup/pull/2660",
+      "author": "nazek52",
+      "merged": true,
+      "mergedAt": "2026-11-10T13:42:41Z"
+    },
+    {
+      "repository": "MakazhanAlpamys/Soup",
+      "number": 2659,
+      "title": "fix(mlx): preserve preference prompts when complete rows fit",
+      "url": "https://github.com/MakazhanAlpamys/Soup/pull/2659",
+      "author": "nazek52",
+      "merged": true,
+      "mergedAt": "2026-11-10T13:23:49Z"
+    }
+  ]
+}
