@@ -1,47 +1,12 @@
 {
   "username": "nazek52",
-  "asOf": "2026-11-10",
-  "start": "2026-05-10",
-  "end": "2026-11-07",
+  "asOf": "2026-11-15",
+  "start": "2026-05-17",
+  "end": "2026-11-14",
   "scope": "Publicly visible GitHub profile calendar; 26 complete Sunday–Saturday weeks; current partial week excluded.",
-  "total": 107,
-  "activeDays": 11,
+  "total": 140,
+  "activeDays": 16,
   "days": [
-    {
-      "date": "2026-05-10",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2026-05-11",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2026-05-12",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2026-05-13",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2026-05-14",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2026-05-15",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2026-05-16",
-      "count": 0,
-      "level": 0
-    },
     {
       "date": "2026-05-17",
       "count": 40,
@@ -916,6 +881,41 @@
       "date": "2026-11-07",
       "count": 3,
       "level": 1
+    },
+    {
+      "date": "2026-11-08",
+      "count": 1,
+      "level": 1
+    },
+    {
+      "date": "2026-11-09",
+      "count": 2,
+      "level": 1
+    },
+    {
+      "date": "2026-11-10",
+      "count": 26,
+      "level": 4
+    },
+    {
+      "date": "2026-11-11",
+      "count": 2,
+      "level": 1
+    },
+    {
+      "date": "2026-11-12",
+      "count": 2,
+      "level": 1
+    },
+    {
+      "date": "2026-11-13",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-11-14",
+      "count": 0,
+      "level": 0
     }
   ]
 }
