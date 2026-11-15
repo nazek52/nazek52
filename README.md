@@ -24,6 +24,7 @@
 </p>
 
 <p align="center">
+  <a href="#recognition">Recognition</a> &nbsp;·&nbsp;
   <a href="#open-source-contributions">Open source</a> &nbsp;·&nbsp;
   <a href="#selected-projects">Projects</a> &nbsp;·&nbsp;
   <a href="#toolkit">Toolkit</a> &nbsp;·&nbsp;
@@ -31,6 +32,12 @@
 </p>
 
 I'm **Nazerke, an AI Engineer** working on LLM fine-tuning, model evaluation, and ML systems. I build experiments with inspectable results and interfaces that make engineering work easier to understand. Based in **Astana, Kazakhstan**.
+
+## Recognition
+
+> **TuneProof · selected for XERJ Corpus Hub**  
+> In November 2026, XERJ selected my CPU LoRA implementation for inclusion in its reference-code index, with author and repository attribution.  
+> [About XERJ](https://github.com/xerj-org/xerj) · [Selection details](https://github.com/nazek52/tuneproof/blob/main/docs/XERJ_RECOGNITION.md)
 
 ## Open-source contributions
 
