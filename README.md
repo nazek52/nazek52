@@ -6,7 +6,7 @@
 </p>
 
 <h1 align="center">Rymbek Nazerke</h1>
-<p align="center"><strong>AI Engineer</strong></p>
+<p align="center"><strong>AI Engineer · Open-source contributor to <a href="https://github.com/MakazhanAlpamys/Soup">Soup</a></strong></p>
 
 <p align="center">
   <picture>
@@ -27,11 +27,12 @@
   <a href="#recognition">Recognition</a> &nbsp;·&nbsp;
   <a href="#open-source-contributions">Open source</a> &nbsp;·&nbsp;
   <a href="#selected-projects">Projects</a> &nbsp;·&nbsp;
+  <a href="#background">Background</a> &nbsp;·&nbsp;
   <a href="#toolkit">Toolkit</a> &nbsp;·&nbsp;
   <a href="#activity">Activity</a>
 </p>
 
-I'm **Nazerke, an AI Engineer** working on LLM fine-tuning, model evaluation, and ML systems. I build experiments with inspectable results and interfaces that make engineering work easier to understand. Based in **Astana, Kazakhstan**.
+I'm **Nazerke, an AI Engineer and open-source contributor to [Soup](https://github.com/MakazhanAlpamys/Soup)**. I work on LLM fine-tuning, model evaluation, and ML systems, with a focus on reproducible experiments and inspectable results. Based in **Astana, Kazakhstan**, studying **Software Engineering at Astana IT University**.
 
 ## Recognition
 
@@ -41,7 +42,7 @@ I'm **Nazerke, an AI Engineer** working on LLM fine-tuning, model evaluation, an
 
 ## Open-source contributions
 
-Selected changes **merged into [Soup](https://github.com/MakazhanAlpamys/Soup)**, an LLM training toolkit. Each link opens the accepted pull request.
+**4 accepted contributions to [Soup](https://github.com/MakazhanAlpamys/Soup)**, an open-source LLM training toolkit. Each link opens my merged pull request.
 
 | Area | Contribution |
 | :--- | :--- |
@@ -51,6 +52,8 @@ Selected changes **merged into [Soup](https://github.com/MakazhanAlpamys/Soup)**
 | Training correctness | [Preserve fitting preference prompts in MLX DPO, ORPO and SimPO ↗](https://github.com/MakazhanAlpamys/Soup/pull/2659) |
 
 <sub>Verified merged on 15 November 2026. AI-assisted contributions; test scope and hardware limitations are documented in each PR.</sub>
+
+I also contributed two merged frontend changes to a team project, [hackathon-data-challenge](https://github.com/DenKish2005/hackathon-data-challenge): [Sana CQA dashboard, criteria and appeals](https://github.com/DenKish2005/hackathon-data-challenge/pull/1), and a [Freedom desktop workspace](https://github.com/DenKish2005/hackathon-data-challenge/pull/3).
 
 ## Selected projects
 
@@ -92,6 +95,39 @@ Selected changes **merged into [Soup](https://github.com/MakazhanAlpamys/Soup)**
 | **[FloodShield](https://github.com/nazek52/FloodShield)** | Applied AI for source-linked field reports, human review and geospatial scenarios. [Try the simulation demo ↗](https://nazek52.github.io/FloodShield/) |
 | **[Release Guard](https://github.com/nazek52/release-guard)** | Explainable canary decisions: PASS, FAIL or HOLD from baseline and candidate metrics. |
 | **[Trace Lens](https://github.com/nazek52/trace-lens)** | A browser trace explorer for OTLP waterfalls and latency investigations; trace data stays local. |
+| **[MediMate](https://prezi.com/p/rjs3rcfiwdg_/medimate--smart-pill-organizer/)** | Smart pill organizer concept and presentation. |
+
+## Background
+
+<details>
+<summary><strong>Experience & education</strong></summary>
+
+- **Product Analyst Intern · SYNK** — October 2026–present. Product metrics, funnels, user behavior and improvement hypotheses.
+- **Front-end Developer · Cushpen group** — September 2026–present. Responsive interfaces and React UI components.
+- **Technical Support Consultant Intern · Cushpen group** — August–November 2026. Troubleshooting and user support.
+- **Graphic Designer · SIAM, Astana IT University** — September 2026–present. Event visuals and digital materials.
+- **Software Engineering · Astana IT University** — undergraduate studies, 2025–2028 (expected graduation).
+
+[Experience and education on LinkedIn →](https://www.linkedin.com/in/nazerke-rymbek-b8b7a9431/)
+
+</details>
+
+<details>
+<summary><strong>Completed learning & hackathon participation</strong></summary>
+
+| Learning | Completion |
+| :--- | :--- |
+| **[Build a computer vision app with Azure Cognitive Services](https://www.coursera.org/account/accomplishments/verify/VYQZL9HQW4UN)** · Microsoft / Coursera | October 2026 · guided project |
+| **[Operating Systems](https://www.coursera.org/account/accomplishments/verify/R0HABZI6YYN2)** · BITS Pilani / Coursera | September 2026 · course |
+| **Commonwealth Bank — Introduction to Software Engineering** · Forage | October 2026 · job simulation |
+| **Data Analytics** · Academica | September 2025 · two-day masterclass |
+
+- **HackNU/26** — participant, 4–5 April 2026, Nazarbayev University ACM Student Chapter.
+- **Meta Global AI Developer Hackathon** — participant; developed the [FloodShield research prototype](https://github.com/nazek52/FloodShield).
+
+[Certificates and participation record →](https://www.linkedin.com/in/nazerke-rymbek-b8b7a9431/details/certifications/)
+
+</details>
 
 ## Toolkit
 
@@ -132,7 +168,7 @@ Selected changes **merged into [Soup](https://github.com/MakazhanAlpamys/Soup)**
 <details>
 <summary>По-русски</summary>
 
-Я Назерке, **ИИ-инженер**. Работаю над дообучением языковых моделей, оценкой их качества и ML-системами. Мне интересен весь путь: от подготовки данных и проверки гипотезы до инструмента, которым удобно пользоваться.
+Я Назерке, **ИИ-инженер и open-source контрибьютор Soup**. Четыре моих изменения приняты в основной проект. Учусь на Software Engineering в Astana IT University и работаю над дообучением языковых моделей, оценкой их качества и ML-системами. Мой проект **TuneProof отобран для включения в XERJ Corpus Hub**.
 
 В моих проектах — эксперименты с LoRA, Triton-ядра, мониторинг моделей и приложения с ИИ. Особое внимание уделяю воспроизводимости, корректности вычислений и проверяемым результатам.
 
